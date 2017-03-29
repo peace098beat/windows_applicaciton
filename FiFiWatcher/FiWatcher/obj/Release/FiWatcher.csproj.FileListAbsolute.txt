@@ -1,0 +1,13 @@
+E:\WindowsAppl\FiWatcher\FiWatcher\bin\Release\FiWatcher.exe.config
+E:\WindowsAppl\FiWatcher\FiWatcher\bin\Release\FiWatcher.exe.manifest
+E:\WindowsAppl\FiWatcher\FiWatcher\bin\Release\FiWatcher.application
+E:\WindowsAppl\FiWatcher\FiWatcher\bin\Release\FiWatcher.exe
+E:\WindowsAppl\FiWatcher\FiWatcher\bin\Release\FiWatcher.pdb
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Release\FiWatcher.Form1.resources
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Release\FiWatcher.Properties.Resources.resources
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Release\FiWatcher.csproj.GenerateResource.Cache
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Release\FiWatcher.TrustInfo.xml
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Release\FiWatcher.exe.manifest
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Release\FiWatcher.application
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Release\FiWatcher.exe
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Release\FiWatcher.pdb

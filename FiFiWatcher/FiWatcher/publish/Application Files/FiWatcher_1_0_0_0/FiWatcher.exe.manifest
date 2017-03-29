@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FiWatcher.exe" version="1.0.0.0" publicKeyToken="359825bf5024cff1" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Enhancedlabs-Lha-Folders-Folder-Private.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FiWatcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FiWatcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC マニフェスト オプション
+            Windows のユーザー アカウント制御のレベルを変更するには、
+            requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            requestedExecutionLevel ノードを指定すると、ファイルおよびレジストリの仮想化は無効になります。
+            旧バージョンとの互換性のためにファイルおよびレジストリの仮想化を
+            使用する場合は、requestedExecutionLevel ノードを削除します。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FiWatcher.exe" size="223680">
+      <assemblyIdentity name="FiWatcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J/fzUTSavInMxJPnGliBOAZXmNB5gFaE73lRuotpy8g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Enhancedlabs-Lha-Folders-Folder-Private.ico" size="210582">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8LBq2okJtDZR4IyVpq/JY18epOsHCkS3DxWee+PPtRI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FiWatcher.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!--このアプリケーションが動作するように設計されている、Windows のすべてのバージョンの一覧。
+      Windows は最も互換性の高い環境を自動的に選択します。-->
+      <!--アプリケーションが Windows Vista で動作するように設計されている場合は、次の supportedOS ノードのコメントを解除します-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- アプリケーションが Windows 7 で動作するように設計されている場合は、次の supportedOS ノードのコメントを解除します。-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!--アプリケーションが Windows 8 で動作するように設計されている場合は、次の supportedOS ノードのコメントを解除します-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- アプリケーションが Windows 8.1 で動作するように設計されている場合は、次の supportedOS ノードのコメントを解除してください-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=PIONEER\0160929" issuerKeyHash="3e62c8a203c7978dce23b0f72365dbc8b04fae4e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XGopWmrN23avSeQX6UqXqgx5wNd9PjC1MNwHWnAGpfg=</DigestValue></Reference></SignedInfo><SignatureValue>Hpkw+VSPEUzGWUsRSShccsmaKifUrfJdcxriWvFimAvGSjIjPy7S0HVn8iFwDsHzjk9GZkQKtGAGf/5+BgdQ9hhXLw5HQ4+3h1KlIiQ40/dj89ekLigAQyGfLL7D7kg0tx3eI2RiyQVP1qCuIn3BW2/Vuj46jjdXJYa01nyI5Qw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rlgwy8QHNyiMAIdBT39cQKnCyaH13MWUfAsl3MYwGYdil7HdfDLLt/MNsPtyOxDDZOLOXiM8B3FwYSOlOg8aPJ7nw4CVEmS4WAKIb+fj5O6mND2ts1Twf/l9fSkNwi2isLWqb60w+d4hb4LAYtC9gBJJx1KIYr2hlk+kdq6A1j8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f8a506705a07dc30b5303e7dd7c0790caa974ae917e449af76dbcd6a5a296a5c" Description="" Url=""><as:assemblyIdentity name="FiWatcher.exe" version="1.0.0.0" publicKeyToken="359825bf5024cff1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PIONEER\0160929</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DMgRN5MCHpRUiOhs7/YTeGF2tYtgEXYRpbHNp9ILzf8=</DigestValue></Reference></SignedInfo><SignatureValue>WEARx7ZGbm9vXFWx8bBe0axTeO41X6mLHrkGyt+Z83CBTYbK3taWmKWxkkaqKLLl418GVwxkFZmHZgAjjbN7XjjittUczq1dMRNnwjzPF/5psivNlT9Nl0Fa+RSI1yacmLQZl+Kf1nf1W85gVzjrTUYh5ciIOfhSs094YUB3V7g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rlgwy8QHNyiMAIdBT39cQKnCyaH13MWUfAsl3MYwGYdil7HdfDLLt/MNsPtyOxDDZOLOXiM8B3FwYSOlOg8aPJ7nw4CVEmS4WAKIb+fj5O6mND2ts1Twf/l9fSkNwi2isLWqb60w+d4hb4LAYtC9gBJJx1KIYr2hlk+kdq6A1j8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQdOqA0h2vHqhDeRI2Hf3DOjANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AUABJAE8ATgBFAEUAUgBcADAAMQA2ADAAOQAyADkwHhcNMTcwMzI5MDI1NjIxWhcNMTgwMzI5MDg1NjIxWjApMScwJQYDVQQDHh4AUABJAE8ATgBFAEUAUgBcADAAMQA2ADAAOQAyADkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK5YMMvEBzcojACHQU9/XECpwsmh9dzFlHwLJdzGMBmHYpex3Xwyy7fzDbD7cjsQw2Tizl4jPAdxcGEjpToPGjye58OAlRJkuFgCiG/n4+TupjQ9rbNU8H/5fX0pDcItorC1qm+tMPneIW+CwGLQvYASScdSiGK9oZZPpHaugNY/AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfsXMNcAEQNqIT/bDuzkrKG7eImGGpLYgjP2Xt1TYCs/ll9V0WSAcKLL9x75LPen/9+CYl1xpI979hOIVN8A3kXdd+Ql+SuskoWrYt6mdTsad54rt9w9DCOBfZ5L0yYB+Z2KDwQ3aqFHstYT3mjxR7RE70DCYU3viRhvqcDdcLHQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

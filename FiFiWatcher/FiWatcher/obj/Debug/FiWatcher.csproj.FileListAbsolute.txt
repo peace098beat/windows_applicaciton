@@ -1,0 +1,8 @@
+E:\WindowsAppl\FiWatcher\FiWatcher\bin\Debug\FiWatcher.exe.config
+E:\WindowsAppl\FiWatcher\FiWatcher\bin\Debug\FiWatcher.exe
+E:\WindowsAppl\FiWatcher\FiWatcher\bin\Debug\FiWatcher.pdb
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Debug\FiWatcher.Form1.resources
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Debug\FiWatcher.Properties.Resources.resources
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Debug\FiWatcher.csproj.GenerateResource.Cache
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Debug\FiWatcher.exe
+E:\WindowsAppl\FiWatcher\FiWatcher\obj\Debug\FiWatcher.pdb
