@@ -1,0 +1,9 @@
+E:\WindowsAppl\WinDragDrop\WinDragDrop\bin\Debug\WinDragDrop.exe.config
+E:\WindowsAppl\WinDragDrop\WinDragDrop\bin\Debug\WinDragDrop.exe
+E:\WindowsAppl\WinDragDrop\WinDragDrop\bin\Debug\WinDragDrop.pdb
+E:\WindowsAppl\WinDragDrop\WinDragDrop\obj\Debug\WinDragDrop.csprojResolveAssemblyReference.cache
+E:\WindowsAppl\WinDragDrop\WinDragDrop\obj\Debug\WinDragDrop.Form1.resources
+E:\WindowsAppl\WinDragDrop\WinDragDrop\obj\Debug\WinDragDrop.Properties.Resources.resources
+E:\WindowsAppl\WinDragDrop\WinDragDrop\obj\Debug\WinDragDrop.csproj.GenerateResource.Cache
+E:\WindowsAppl\WinDragDrop\WinDragDrop\obj\Debug\WinDragDrop.exe
+E:\WindowsAppl\WinDragDrop\WinDragDrop\obj\Debug\WinDragDrop.pdb
