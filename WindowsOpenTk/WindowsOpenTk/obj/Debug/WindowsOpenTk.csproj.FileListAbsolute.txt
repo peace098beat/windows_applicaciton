@@ -1,0 +1,13 @@
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\bin\Debug\WindowsOpenTk.exe.config
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\bin\Debug\WindowsOpenTk.exe
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\bin\Debug\WindowsOpenTk.pdb
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\bin\Debug\OpenTK.dll
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\bin\Debug\OpenTK.GLControl.dll
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\bin\Debug\OpenTK.xml
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\bin\Debug\OpenTK.GLControl.xml
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\obj\Debug\WindowsOpenTk.csprojResolveAssemblyReference.cache
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\obj\Debug\WindowsOpenTk.Form1.resources
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\obj\Debug\WindowsOpenTk.Properties.Resources.resources
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\obj\Debug\WindowsOpenTk.csproj.GenerateResource.Cache
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\obj\Debug\WindowsOpenTk.exe
+E:\WindowsAppl\WindowsOpenTk\WindowsOpenTk\obj\Debug\WindowsOpenTk.pdb
